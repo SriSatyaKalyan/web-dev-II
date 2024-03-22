@@ -1,14 +1,49 @@
+h1 {
+	padding: 5px;
+}
 h2 {
 	color: rgb(122, 105, 105);
 	background-color: pink;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h3 {
+	text-decoration: red underline wavy;
 }
 
 button {
 	color: blueviolet;
 	background-color: palegreen;
+	text-decoration: dashed;
+	padding: 0px 20px;
 }
 
 p {
-	background-color: rgb(209, 214, 96);
+	/* background-color: rgb(209, 214, 96); */
 	color: olive;
+	width: 1000px;
+	height: 100px;
+	border-color: aqua;
+	border-width: thick;
+}
+
+div {
+	width: 1000px;
+	height: 200px;
+}
+
+#one {
+	background-color: aquamarine;
+	border-style: dashed solid;
+	border-width: 10px;
+	border-color: rebeccapurple;
+	/* box-sizing: border-box; */
+}
+
+#two {
+	background-color: rgb(59, 76, 70);
+	border-style: dashed solid;
+	border-width: 10px;
+	border-color: rgb(184, 206, 161);
+	padding-right: 15px;
 }

@@ -1,0 +1,14 @@
+h1 {
+	background-color: palegoldenrod;
+	border: 1px solid black;
+	display: inline;
+}
+
+span {
+	background-color: azure;
+	border: 2px solid red;
+	width: 100px;
+	display: block;
+	padding: 50px;
+	margin: 20px;
+}
