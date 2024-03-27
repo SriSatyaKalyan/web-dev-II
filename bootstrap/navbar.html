@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bootstrap</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+			integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="app.css" />
+	</head>
+	<body>
+		<div class="container-fluid">
+			<!-- <nav class="navbar navbar-light bg-light">
+				<a href="#" class="navbar-brand">Navbar</a>
+			</nav> -->
+
+			<nav
+				class="navbar navbar-expand-sm navbar-dark fixed-top"
+				style="background-color: #25d250"
+			>
+				<a href="#" class="navbar-brand">Navbar</a>
+				<button
+					class="navbar-toggler"
+					data-target="#navbarNavAltMarkup"
+					data-toggle="collapse"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link active" href="#"
+							>Home <span class="sr-only">(current)</span></a
+						>
+						<a class="nav-item nav-link" href="#">Features</a>
+						<a class="nav-item nav-link" href="#">Pricing</a>
+					</div>
+				</div>
+			</nav>
+
+			<h1 class="text-center">Building Bootstrap</h1>
+			<h1 class="display-1">Display 1</h1>
+
+			<h2 class="display-3">
+				Buttons <span class="badge badge-danger">New</span>
+			</h2>
+			<button type="button" class="btn btn-primary">Primary</button>
+			<button type="button" class="btn btn-danger">Danger</button>
+			<button type="button" class="btn btn-warning">Warning</button>
+			<button type="button" class="btn btn-outline-primary">
+				Primary
+			</button>
+
+			<button>Updates <span class="badge badge-light">9</span></button>
+
+			<h3>Button Groups</h3>
+			<div class="btn-group btn-group-toggle" data-toggle="buttons">
+				<label class="btn btn-secondary active"> Active </label>
+				<label class="btn btn-primary"> Radio </label>
+				<label class="btn btn-secondary"> Radio </label>
+			</div>
+
+			<h3>Utilities</h3>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4 border rounded shadow">
+						Lorem, ipsum dolor sit amet consectetur adipisicing
+						elit. Officia quos ducimus consequatur ex iusto
+						obcaecati laudantium alias voluptatibus ut, esse numquam
+						dolorum quisquam sunt! Similique facilis laborum quae
+						ratione accusamus.
+					</div>
+				</div>
+			</div>
+
+			<h3>
+				Icons<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="16"
+					height="16"
+					fill="currentColor"
+					class="bi bi-boombox"
+					viewBox="0 0 16 16"
+				>
+					<path
+						d="M2.5 5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m2 0a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m7.5-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0m1.5.5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1m-7-1a.5.5 0 0 0 0 1h3a.5.5 0 0 0 0-1zm5.5 6.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
+					/>
+					<path
+						d="M11.5 13a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5m0-1a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0"
+					/>
+					<path
+						d="M7 10.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0m-1 0a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0"
+					/>
+					<path
+						d="M14 0a.5.5 0 0 1 .5.5V2h.5a1 1 0 0 1 1 1v11a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12.5V.5A.5.5 0 0 1 14 0M1 3v3h14V3zm14 4H1v7h14z"
+					/>
+				</svg>
+			</h3>
+			<button class="btn btn-sm btn-danger">
+				Delete
+				<svg
+					xmlns="http://www.w3.org/2000/svg"
+					width="16"
+					height="16"
+					fill="currentColor"
+					class="bi bi-trash2-fill"
+					viewBox="0 0 16 16"
+				>
+					<path
+						d="M2.037 3.225A.7.7 0 0 1 2 3c0-1.105 2.686-2 6-2s6 .895 6 2a.7.7 0 0 1-.037.225l-1.684 10.104A2 2 0 0 1 10.305 15H5.694a2 2 0 0 1-1.973-1.671zm9.89-.69C10.966 2.214 9.578 2 8 2c-1.58 0-2.968.215-3.926.534-.477.16-.795.327-.975.466.18.14.498.307.975.466C5.032 3.786 6.42 4 8 4s2.967-.215 3.926-.534c.477-.16.795-.327.975-.466-.18-.14-.498-.307-.975-.466z"
+					/>
+				</svg>
+			</button>
+
+			<div class="row">
+				<div class="col-md-6">
+					<div class="input-group">
+						<div class="input-group-prepend">
+							<span class="input-group-text"
+								><svg
+									xmlns="http://www.w3.org/2000/svg"
+									width="16"
+									height="16"
+									fill="currentColor"
+									class="bi bi-search"
+									viewBox="0 0 16 16"
+								>
+									<path
+										d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"
+									/></svg
+							></span>
+						</div>
+						<input
+							type="text"
+							class="form-control"
+							placeholder="search"
+						/>
+					</div>
+				</div>
+			</div>
+
+			<h3>Alerts</h3>
+			<div class="alert alert-danger">Danger!</div>
+			<div class="alert alert-success">
+				We have avoided failure
+				<button class="close" data-dismiss="alert" aria-label="close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+
+			<h2 class="display-4 text-center text-secondary">Typography</h2>
+			<p class="lead">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor
+				iste, beatae est at porro ipsa corrupti velit aliquid, deserunt
+				esse quis qui sunt sint odit eaque commodi. Voluptatem, ab
+				iusto! Lorem ipsum dolor sit amet consectetur adipisicing elit.
+				Sunt, in et, rerum sequi commodi, voluptatum unde omnis rem
+				voluptas corrupti consectetur obcaecati ipsa officia dolores
+				vero modi nesciunt quidem magnam.
+			</p>
+
+			<blockquote class="blockquote">
+				<p>
+					Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+					Incidunt sint repellat hic error nostrum vitae molestias
+					commodi maxime earum debitis nisi necessitatibus temporibus
+					magni quia praesentium odio, officia laborum quaerat. Lorem
+					ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+					facere ipsum nulla adipisci tenetur nam, assumenda quam sit
+					corrupti, similique sunt sint nobis deserunt, blanditiis
+					aliquid maxime ab nihil suscipit!
+				</p>
+			</blockquote>
+
+			<footer class="blockquote-footer">Someone famous</footer>
+		</div>
+
+		<script
+			src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+			integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+			integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+			integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
