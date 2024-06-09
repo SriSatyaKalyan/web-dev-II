@@ -16,5 +16,5 @@ const amadeus = new Movie({
 	title: "Amadeus",
 	score: 9,
 	year: 1986,
-	rating: "R",1
+	rating: "R",
 });
